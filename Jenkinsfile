@@ -1,6 +1,6 @@
 pipeline {
     agent any 
-    params {
+    parameters {
                 choice(name: 'deploy_choice', choices:['apply','destroy'],description:'The deployment type')
                   }
     environment {
