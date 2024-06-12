@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('1.Terraform init') {
             steps {
-                echo 'terraform init phase'
+                echo 'terraform initialisation phase'
                 sh 'terraform init'
             }
         }
